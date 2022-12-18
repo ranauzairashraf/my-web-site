@@ -1,4 +1,7 @@
-function checkPalindrome(string) {
+function checkPalindrome() {
+
+    var string = document.getElementById('pass').value;
+    
     const arrayValues = string.split('');
     const reverseArrayValues = arrayValues.reverse();
     const reverseString = reverseArrayValues.join('');
@@ -9,5 +12,3 @@ function checkPalindrome(string) {
   console.log('It is not a palindrome');
   }
 }
-const string = 'RanaUzairAshraf ';
-checkPalindrome(string);
